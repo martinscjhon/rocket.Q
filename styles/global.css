@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+}
+
+html{  
+  --black: #0D114F;
+  --white: #FAFAFA;
+  --red: #E83F5B;
+  --light-blue: #e0ecff;
+  --background: #FBFCFF;
+  --overlay: #040911;
+  --icons-details:  #A5B0C1;
+
+/* --------------GREY--------------- */
+  --grey-dark: #4D5E77;
+  --gray-blue:  #A1B2CD;
+  --grey-medium:  #D3D9E2;
+  --grey-light: #E5EAF1;
+
+/* --------------HOVER--------------- */
+  --hover-blue: #5699FF;  
+  --hover-red: #EA4B65;
+  --hove-grey:#8794A7;
+
+/* --------------FONTS--------------- */
+/* o padrão virou 10px e a divisão do rem é feito por 10 */
+  font-size: 62.5%;
+}
+
+body{
+  height: 100vh;    
+  background: var(--background);  
+}
+
+body, input, button, textarea{
+  /* -----intervalo de tamanho----- */
+  /* tamanho min, padrão, tamanho max */
+  font-size: clamp(14px, 1.6rem, 2vw);
+  
+}

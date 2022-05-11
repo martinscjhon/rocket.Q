@@ -1,3 +1,4 @@
+/* ========= HOME */
 .content{
   display: grid;
   grid-template-columns: 60% 40%;
@@ -12,19 +13,21 @@ header{
 }
 
 #bg{
-  grid-area: left;  
-  background: url('/assets/home-bg-img.svg') no-repeat top/contain;    
+  grid-area: left; 
+  width: 75.664rem;   
+  height: 66.455rem;
+  background: url('/assets/home-bg-img.svg') no-repeat top/contain;      
 }
 
 main{
   grid-area: right;
-  
+  margin-top: -12rem;
   display: flex;
   align-items: center;
 }
 
 main .container{
-  width: min(36.3rem 100%);
+  width: min(36.3rem, 100%);
 }
 
 main h2{  
@@ -42,4 +45,49 @@ input{
 input, button, .button{
   width: 100%;
   margin-bottom: 1.8rem;
+}
+
+.separator{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.45rem;
+  margin: 4rem auto;
+}
+
+.separator div:nth-child(2){
+  font-family: 'Poppins';
+  font-weight: 400;
+  color: var(--gray-blue);
+  line-height: 0;
+}
+
+.separator div:nth-child(1),
+/* pega a posição da div dentro de um campo */
+.separator div:nth-child(3){
+  height: 0.1rem;
+  background-color: var(--gray-blue);
+  width: 100%;
+}
+
+.ball{
+  background: var(--blue);
+  position: fixed;
+  width: 21.2rem;
+  height: 21.2rem;
+  clip-path: circle();  
+}
+
+.ball.top{
+  top: -50rem;
+  right: -35rem;
+  opacity: .15;  
+  width: 63.3rem;
+  height: 63.3rem;
+}
+
+.ball.bottom{
+  right: 5.3rem;
+  bottom: -16rem;
+  opacity: .1;  
 }

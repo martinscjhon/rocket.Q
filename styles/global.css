@@ -30,10 +30,13 @@ html{
 /* --------------FONTS--------------- */
 /* o padrão virou 10px e a divisão do rem é feito por 10 */
   font-size: 62.5%;
+
+  overflow-y: hidden;
 }
 
-body{
-  height: 100vh;    
+body{  
+  display: flex;  
+  align-items: center;
   background: var(--background);  
 }
 

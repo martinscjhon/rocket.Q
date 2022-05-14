@@ -1,19 +1,5 @@
-<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d_10907_409)">
-<circle cx="30.0002" cy="26" r="26" fill="#3485FF"/>
-<path d="M38.0002 35V33C38.0002 31.9391 37.5788 30.9217 36.8286 30.1716C36.0785 29.4214 35.061 29 34.0002 29H26.0002C24.9393 29 23.9219 29.4214 23.1718 30.1716C22.4216 30.9217 22.0002 31.9391 22.0002 33V35" stroke="#FAFAFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M30.0002 25C32.2093 25 34.0002 23.2091 34.0002 21C34.0002 18.7909 32.2093 17 30.0002 17C27.791 17 26.0002 18.7909 26.0002 21C26.0002 23.2091 27.791 25 30.0002 25Z" stroke="#FAFAFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-<defs>
-<filter id="filter0_d_10907_409" x="0.000183105" y="0" width="60" height="60" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="2"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_10907_409"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_10907_409" result="shape"/>
-</filter>
-</defs>
+<svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="26" cy="26" r="26" fill="#3485FF"/>
+<path d="M34 35V33C34 31.9391 33.5786 30.9217 32.8284 30.1716C32.0783 29.4214 31.0609 29 30 29H22C20.9391 29 19.9217 29.4214 19.1716 30.1716C18.4214 30.9217 18 31.9391 18 33V35" stroke="#FAFAFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M26 25C28.2091 25 30 23.2091 30 21C30 18.7909 28.2091 17 26 17C23.7909 17 22 18.7909 22 21C22 23.2091 23.7909 25 26 25Z" stroke="#FAFAFA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>

@@ -21,6 +21,7 @@ html{
   --gray-blue:  #A1B2CD;
   --grey-medium:  #D3D9E2;
   --grey-light: #E5EAF1;
+  --grey-read: #eaecf2;
 
 /* --------------HOVER--------------- */
   --hover-blue: #5699FF;  
@@ -29,14 +30,13 @@ html{
 
 /* --------------FONTS--------------- */
 /* o padrão virou 10px e a divisão do rem é feito por 10 */
-  font-size: 62.5%;
-
-  overflow-y: hidden;
+  font-size: 62.5%;  
 }
 
 body{  
   display: flex;  
-  align-items: center;
+  width: 100%;
+  height: 100vh;  
   background: var(--background);  
 }
 
@@ -46,6 +46,16 @@ body, input, button, textarea{
   font-size: clamp(14px, 1.6rem, 2vw);  
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: antialiased;  
+}
+
+button.red, .button.red{
+  background: var(--red);
+  color: var(--white);
+}
+
+button.grey, .button.grey{
+  background: var(--grey-light);
+  color: var(--grey-dark);  
 }
 
 button, input, .button{

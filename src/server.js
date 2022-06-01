@@ -10,6 +10,8 @@ server.use(express.static('public')) //express use => usar
 
 server.set('views', path.join(__dirname, 'views')) //junta o diretorio (join => juntar)
 
+server.use(express.urlencoded({ extended: true }))
+
 server.use(route)
 
 server.listen(3000, () => console.log('RODANDO'))

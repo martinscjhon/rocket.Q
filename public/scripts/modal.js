@@ -6,12 +6,12 @@ export default function Modal() {
 
   function open() {
     // função abrir
-    modalWrapper.classList.add('active') //adiciona
+    modalWrapper.classList.add('active')
   }
 
   function close() {
     // função fechar
-    modalWrapper.classList.remove('active') //remove
+    modalWrapper.classList.remove('active')
   }
 
   return {

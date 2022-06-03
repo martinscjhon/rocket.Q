@@ -7,12 +7,10 @@ route.get('/', (req, res) => res.render('index', { page: 'entrer-room' }))
 route.get('/create-pass', (req, res) =>
   res.render('index', { page: 'create-pass' })
 )
-route.get('/room/:room', (req, res) => res.render('room'))
-
-// passar info do form para a url
-route.post('/question/:room/:question/:action', QuestionController.index)
 route.post('/create-room', RoomController.create)
+route.get('/room/:room', RoomController.open)
 
-// para pegar um atributo nas rotas através do ejs é necessário usar a sintaxe <%=req.params.${qualparametro}%>
+route.post('/question/create/:room', QuestionController.create)
+route.post('/question/:room/:question/:action', QuestionController.index)
 
 module.exports = route
